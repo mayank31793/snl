@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 #playIn,#playOut{
 	display: none;
 }
@@ -80,6 +84,7 @@ input:focus{
 	margin: auto;
 	background-color: #8E730D;
 	border: 1px solid black;
+	padding: 10px;
 }
 
 .gameClass1{
@@ -89,7 +94,16 @@ input:focus{
 .elemStyle{
 	width: 50px;
 	height: 50px;
-	background-color: red;
+	background-color: #A0DBB4;
 	border: 1px solid black;
 	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+.DiceResult{
+	position: absolute;
+	float: right;
+	right: 30%;
+	/*clear: both;*/
 }
