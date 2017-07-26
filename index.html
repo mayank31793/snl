@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake n ladder</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<audio controls id="playIn">
+		<source src="in.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<audio controls id="playOut">
+  		<source src="out.mp3" type="audio/mpeg">
+	    Your browser does not support the audio element.
+	</audio>
+	<div class="details" id="detailsId">
+		<h1>Snake 'N' Ladder</h1>
+		Player 1:<input type="text" id="p1" required=""><br>
+		Player 2:<input type="text" id="p2" required=""><br><br>
+		Slect Grid:
+		<button class="gridOption" value="36" onclick="gridSelect(this)">36</button>
+		<button class="gridOption" value="64" onclick="gridSelect(this)">64</button>
+		<button class="gridOption" value="100" onclick="gridSelect(this)">100</button><br><br>
+		<input type="button" name="Start" value="Start" id="enterButton" onclick="hideDiv()">
+	</div>
+	<div id="gameId" class="gameClass gameClass1">
+		
+	</div>
+</body>
+</html>
