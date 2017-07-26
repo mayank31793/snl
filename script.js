@@ -23,6 +23,7 @@ function hideDiv(){
 	console.log("hide");
 	document.getElementById('gameId').classList.remove("gameClass1");
 	console.log('button value is '+buttonValue);
+	document.getElementById('playOut').play();
 	for(var i=0;i<buttonValue;i++){
 		var elem = document.createElement('div');
 		elem.className = "elemStyle";
